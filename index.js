@@ -7,7 +7,7 @@ const app = express();
 // List of allowed origins
 const allowedOrigins = [
 //   'http://localhost:3000', // Local development
-  'http://www.text-adventure-openai-surge.sh', // Your production site
+  'https://text-adventure-openai.surge.sh', // Your production site
 ];
 
 const corsOptions = {
